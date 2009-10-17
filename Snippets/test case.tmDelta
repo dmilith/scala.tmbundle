@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>class ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} extends ${2:TestCase} $0</string>
+		<key>scope</key>
+		<string>source.scala</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>D3D659F5-5318-4D0A-85E2-9A03902A1668</string>
+</dict>
+</plist>
