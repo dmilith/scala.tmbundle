@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List: Method / Constructor</string>
 	<key>scope</key>
-	<string>source.java meta.definition.method, source.java meta.definition.constructor</string>
+	<string>source.scala meta.definition.method, source.scala meta.definition.constructor</string>
 	<key>settings</key>
 	<dict>
 		<key>comment</key>

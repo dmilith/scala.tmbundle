@@ -9,9 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>^(.*\*/)?\s*\}([^}{"']*\{)?[;\s]*(//.*|/\*.*\*/\s*)?$|^\s*(def|class|trait|public|private|protected):\s*$</string>
+		<string>^(.*\*/)?\s*\}([^}{"']*\{)?[;\s]*(//.*|/\*.*\*/\s*)?$|^\s*(def|class|object|trait|val|var|private|protected):\s*$</string>
 		<key>increaseIndentPattern</key>
-		<string>^.*\{[^}"']*$|^\s*(def|class|trait|public|private|protected):\s*$</string>
+		<string>^.*\{[^}"']*$|^\s*(def|class|object|trait|val|var|private|protected):\s*$</string>
 		<key>indentNextLinePattern</key>
 		<string>^(?!(.*[};:])?\s*(//|/\*.*\*/\s*$)).*[^\s;:{}]\s*$</string>
 	</dict>

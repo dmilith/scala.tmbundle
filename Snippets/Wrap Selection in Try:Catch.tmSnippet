@@ -6,14 +6,16 @@
 	<string>${TM_SELECTED_TEXT/\A(\s*).*/$1/m}try {
 ${TM_SELECTED_TEXT/^.+$/\t$0/g}${TM_SELECTED_TEXT/\A(\s*).*/$1/m}}
 ${TM_SELECTED_TEXT/\A(\s*).*/$1/m}catch { 
-${TM_SELECTED_TEXT/\A(\s*).*/$1/m}	case e: Throwable =&gt; e.printStackTrace();
-${TM_SELECTED_TEXT/\A(\s*).*/$1/m}	case _ =&gt; 
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}  case e: Throwable =&gt; e.printStackTrace();
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}  case _ =&gt; 
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}} finally {
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}  $0
 ${TM_SELECTED_TEXT/\A(\s*).*/$1/m}}
 </string>
 	<key>keyEquivalent</key>
 	<string>^W</string>
 	<key>name</key>
-	<string>Wrap Selection in Try/Catch</string>
+	<string>Wrap Selection in Try/Catch/Finally</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>uuid</key>

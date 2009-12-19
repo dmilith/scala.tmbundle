@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>private ${4:field}: ${2:String}
+	<string>private ${5:val} ${4:field}: ${2:String}
 
 def ${1:fieldName}_=(${3:arg}: ${2:String}) = ${4:field} = ${3:arg}
 

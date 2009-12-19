@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>package </string>
+	<string>test ("should ${1:do something useful}") {
+	$0
+}
+</string>
 	<key>name</key>
-	<string>package</string>
+	<string>scalatest test</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>pa</string>
+	<string>test</string>
 	<key>uuid</key>
-	<string>F2C18E05-A7E7-4898-8CB5-CC7E6020AAFE</string>
+	<string>2DCC9464-CA82-4FFB-A65F-AB2DD54C83A0</string>
 </dict>
 </plist>

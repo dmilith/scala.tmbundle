@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>package </string>
+	<string>should equal</string>
 	<key>name</key>
-	<string>package</string>
+	<string>should equal</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>pa</string>
+	<string>se</string>
 	<key>uuid</key>
-	<string>F2C18E05-A7E7-4898-8CB5-CC7E6020AAFE</string>
+	<string>31690157-52FE-4B8C-8E1B-4B3E1CC11E55</string>
 </dict>
 </plist>

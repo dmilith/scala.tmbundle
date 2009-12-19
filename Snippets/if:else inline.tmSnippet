@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>public </string>
+	<string>if (${1:condition}) ${2:// expression} else ${3:// expression} $0</string>
 	<key>name</key>
-	<string>public</string>
+	<string>if/else inline</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>pu</string>
+	<string>ifelsein</string>
 	<key>uuid</key>
-	<string>BD7A6DBE-0180-4E1A-A428-14D44BD88F88</string>
+	<string>F2FE4799-0F30-469A-B1DB-AB5561A93162</string>
 </dict>
 </plist>

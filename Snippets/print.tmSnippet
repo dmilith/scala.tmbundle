@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>print</string>
 	<key>scope</key>
-	<string>source.java</string>
+	<string>source.scala</string>
 	<key>tabTrigger</key>
 	<string>p</string>
 	<key>uuid</key>

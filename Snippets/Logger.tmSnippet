@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>/** Logger for this class and subclasses. */
-protected final Log log = LogFactory.getLog(getClass());
+protected val Log log = LogFactory.getLog(getClass());
 </string>
 	<key>name</key>
 	<string>Logger</string>
 	<key>scope</key>
-	<string>source.java</string>
+	<string>source.scala</string>
 	<key>tabTrigger</key>
 	<string>log</string>
 	<key>uuid</key>
