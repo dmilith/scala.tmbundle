@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>/** Logger for this class and subclasses. */
-protected val Log log = LogFactory.getLog(getClass());
+protected val log:Log = LogFactory.getLog(getClass());
 </string>
 	<key>name</key>
 	<string>Logger</string>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>val ${1:name}${2::${3:String}} ${4:= ${0:""}}</string>
+	<string>val ${1:name}${2::${3:String}} = ${0:""}</string>
 	<key>name</key>
 	<string>val</string>
 	<key>scope</key>

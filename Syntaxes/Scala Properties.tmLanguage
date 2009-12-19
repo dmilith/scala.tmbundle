@@ -7,7 +7,7 @@
 		<string>properties</string>
 	</array>
 	<key>keyEquivalent</key>
-	<string>^~J</string>
+	<string>^~S</string>
 	<key>name</key>
 	<string>Scala Properties</string>
 	<key>patterns</key>

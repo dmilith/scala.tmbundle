@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>intercept[${1:Throwable]} {
+	<string>intercept[${1:Throwable}] {
 	$0
 }</string>
 	<key>name</key>

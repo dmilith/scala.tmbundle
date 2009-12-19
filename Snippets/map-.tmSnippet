@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>foreach { (${1:x}: ${2:String}) =&gt; ${3:println(x)} }$0</string>
+	<string>map { _.${1:foo} }$0</string>
 	<key>name</key>
-	<string>for (each)</string>
+	<string>map-</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>foreach</string>
+	<string>map-</string>
 	<key>uuid</key>
-	<string>8B84EAD3-F93D-407A-8BB1-4FEF8B0C71D7</string>
+	<string>BFDE72D0-A63B-4406-9C7B-2B37180EE70D</string>
 </dict>
 </plist>

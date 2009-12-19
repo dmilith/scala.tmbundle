@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>foreach { (${1:x}: ${2:String}) =&gt; ${3:println(x)} }$0</string>
+	<string>private val ${3:field}: ${2:String}
+
+def ${1:fieldName} = ${3:field}
+</string>
 	<key>name</key>
-	<string>for (each)</string>
+	<string>val bean</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>foreach</string>
+	<string>valbean</string>
 	<key>uuid</key>
-	<string>8B84EAD3-F93D-407A-8BB1-4FEF8B0C71D7</string>
+	<string>F9526AC8-310C-46FD-9ADF-94B5F3617EAA</string>
 </dict>
 </plist>

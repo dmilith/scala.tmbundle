@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>def main(args: Array[String]): Unit = {
-	${1:System.exit(0)};
+	$0
 }</string>
 	<key>name</key>
 	<string>main method</string>

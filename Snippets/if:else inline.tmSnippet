@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if (${1:condition}) ${2:// expression} else ${3:// expression} $0</string>
+	<string>if (${1:condition}) ${2:expression1} else ${3:expression2} $0</string>
 	<key>name</key>
 	<string>if/else inline</string>
 	<key>scope</key>

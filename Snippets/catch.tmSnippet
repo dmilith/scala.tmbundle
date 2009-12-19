@@ -4,14 +4,14 @@
 <dict>
 	<key>content</key>
 	<string>catch {
-	case ${2:e}: ${1:Throwable} =&gt; $0
+	case ${1:e}: ${2:Throwable} =&gt; $0
 }</string>
 	<key>name</key>
 	<string>catch</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>ca</string>
+	<string>catch</string>
 	<key>uuid</key>
 	<string>CE3059F1-EBFE-426B-A98A-7D935580F915</string>
 </dict>
