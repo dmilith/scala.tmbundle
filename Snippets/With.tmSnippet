@@ -2,13 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>command</key>
-	<string>templatize.sh build-tplate.xml</string>
-	<key>extension</key>
-	<string>xml</string>
+	<key>content</key>
+	<string>with ${1:Any}</string>
 	<key>name</key>
-	<string>Ant Build</string>
+	<string>With</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>tabTrigger</key>
+	<string>w</string>
 	<key>uuid</key>
-	<string>78FFA678-C55D-4A55-BC3E-83BE55B4437D</string>
+	<string>56D7D5D4-355C-4BAA-8F38-DA5A5FCA33C8</string>
 </dict>
 </plist>

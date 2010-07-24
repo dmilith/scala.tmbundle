@@ -5,21 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://www.scala-lang.org/docu/files/api/index.html'&gt;"
-
-
-</string>
+	<string>$SCALA_HOME/bin/scala -nocompdaemon -howtorun:script $TM_FILEPATH</string>
 	<key>input</key>
-	<string>none</string>
+	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>^h</string>
+	<string>@r</string>
 	<key>name</key>
-	<string>Documentation</string>
+	<string>Run as script</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>uuid</key>
-	<string>29FC5ED1-3AAA-4A7C-9F2D-D18D4E41A1E5</string>
+	<string>DDFBBCF9-D333-4077-8D4F-EF6F2CA62220</string>
 </dict>
 </plist>

@@ -3,21 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * $1
- */
-object ${1:ObjectName}
-{
-	$0
+	<string>object ${1:Test} {
+  def main(args: Array[String]): Unit = {
+    $2
+  }
 }
 </string>
 	<key>name</key>
-	<string>Object</string>
-	<key>scope</key>
-	<string>source.scala</string>
+	<string>object with main method</string>
 	<key>tabTrigger</key>
-	<string>object</string>
+	<string>omain</string>
 	<key>uuid</key>
-	<string>9321964C-128C-4CAE-9103-5976CDED4A9D</string>
+	<string>853C1915-7B23-4C79-AAAA-AEDFB21CA08C</string>
 </dict>
 </plist>

@@ -2,15 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>protected </string>
 	<key>name</key>
-	<string>Protected</string>
+	<string>Enable Spellchecking</string>
 	<key>scope</key>
-	<string>source.scala</string>
-	<key>tabTrigger</key>
-	<string>pro</string>
+	<string>comment.block.scala</string>
+	<key>settings</key>
+	<dict>
+		<key>spellChecking</key>
+		<integer>1</integer>
+	</dict>
 	<key>uuid</key>
-	<string>31F59048-C02C-4D8A-A162-283F48CF0F07</string>
+	<string>8C9DE937-90BE-4B9B-B697-8EE8F2459904</string>
 </dict>
 </plist>

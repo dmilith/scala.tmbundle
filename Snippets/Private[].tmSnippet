@@ -3,25 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>try 
-{
-	${2:// expression}
-} 
-catch  
-{
-	case e : ${1:Exception} =&gt; ${3:// expression}
-} 
-finally 
-{
-	${0:// expression}
-}</string>
+	<string>private[${1:this}] </string>
 	<key>name</key>
-	<string>Try/Catch/Finally</string>
+	<string>Private[]</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>tfc</string>
+	<string>pri</string>
 	<key>uuid</key>
-	<string>32C8D45A-CB0A-45B6-84B8-141F21155478</string>
+	<string>A9AB722E-226D-4514-A25E-063FAE101128</string>
 </dict>
 </plist>
