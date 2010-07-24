@@ -1,4 +1,11 @@
-# Dean Wampler's Scala TextMate Bundle
+# Mix of Dean Wampler's and Mads Hartmann's Scala TextMate Bundles
+# Updated by Daniel (dmilith) Dettlaff
+# © VerKnowSys.com
+
+
+25 July, 2010
+
+Added a bit better support for Scala 2.8 language. 
 
 October 17, 2009
 
