@@ -24,7 +24,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\s(\w*?)\.</string>
+			<string>(\w)(\w*?)\.</string>
 			<key>end</key>
 			<string>\.?(\W?)?</string>
 			<key>name</key>
@@ -64,7 +64,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(import)\s+([\w]+\.)(\{|_|\w)</string>
+			<string>\b(import)</string>
 			<key>name</key>
 			<string>meta.import.scala</string>
 		</dict>
