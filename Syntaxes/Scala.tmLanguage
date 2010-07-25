@@ -78,9 +78,9 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>{|\}|\.|;|=|\:|\[|\]|\(|\)</string>
+			<string>{|\}|\.|;|=|,|\:|\[|\]|\(|\)|&gt;|&lt;|&amp;&amp;|\|\||\+|-|_</string>
 			<key>name</key>
-			<string>comment.block.empty.scala</string>
+			<string>punctuation.definition</string>
 		</dict>
 		<dict>
 			<key>begin</key>
