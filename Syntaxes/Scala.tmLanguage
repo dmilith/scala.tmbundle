@@ -24,19 +24,11 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\w*)\.</string>
+			<string>\s(\w*?)\.</string>
 			<key>end</key>
 			<string>\.?(\W?)?</string>
 			<key>name</key>
 			<string>meta.code.function_caller</string>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>\W*\.</string>
-			<key>end</key>
-			<string>(\w+)|\n</string>
-			<key>name</key>
-			<string>meta.code.function_call.local</string>
 		</dict>
 		<dict>
 			<key>captures</key>

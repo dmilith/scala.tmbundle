@@ -445,31 +445,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Scala function call (dmilith)</string>
-			<key>scope</key>
-			<string>meta.code.function_call.local</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#EEE5F1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>meta.code.function_caller</string>
+			<string>Scala object calling a function (dmilith)</string>
 			<key>scope</key>
 			<string>meta.code.function_caller</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A756B0</string>
+				<string>#9F78D0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Scala Symbol</string>
+			<string>Scala Symbol (dmilith)</string>
 			<key>scope</key>
 			<string>meta.code.scala.symbol</string>
 			<key>settings</key>
