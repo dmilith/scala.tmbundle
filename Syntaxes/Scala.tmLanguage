@@ -11,7 +11,7 @@
 	<key>foldingStopMarker</key>
 	<string>\*\*/|^\s*\}</string>
 	<key>name</key>
-	<string>Scala - updated by dmilith</string>
+	<string>Scala - dmilith</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -21,6 +21,14 @@
 			<string>\s*</string>
 			<key>name</key>
 			<string>meta.code.scala.symbol</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>@(\w+)</string>
+			<key>end</key>
+			<string>\s*</string>
+			<key>name</key>
+			<string>meta.code.scala.annotation</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -531,7 +539,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(final|@native|synchronized|abstract|sealed|@transient|@volatile)\b</string>
+			<string>\b(final|native|synchronized|abstract|sealed|transient|volatile)\b</string>
 		</dict>
 		<key>strings</key>
 		<dict>

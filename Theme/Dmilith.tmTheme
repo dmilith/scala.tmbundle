@@ -14,7 +14,7 @@
 				<key>caret</key>
 				<string>#F8E600</string>
 				<key>foreground</key>
-				<string>#AFAEB0</string>
+				<string>#C2C1C3</string>
 				<key>invisibles</key>
 				<string>#000000</string>
 				<key>lineHighlight</key>
@@ -115,17 +115,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#D5D6DF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>variable.language.scala</string>
-			<key>scope</key>
-			<string>variable.language.scala</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#669CC2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -242,7 +231,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#CA86FD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -429,7 +418,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#30B000</string>
+				<string>#32B700</string>
 			</dict>
 		</dict>
 		<dict>
@@ -463,6 +452,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E6E500</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Scala annotation (dmilith)</string>
+			<key>scope</key>
+			<string>meta.code.scala.annotation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DBDA00</string>
 			</dict>
 		</dict>
 	</array>
