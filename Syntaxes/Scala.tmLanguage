@@ -86,7 +86,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>{|\}|\.|;|=|,|\:|\[|\]|\(|\)|&gt;|&lt;|&amp;&amp;|\|\||\+|-|_</string>
+			<string>{|\}|\.|;|=|,|\:|\[|\]|\(|\)|&gt;|&lt;|&amp;&amp;|\|\||\+|-</string>
 			<key>name</key>
 			<string>punctuation.definition</string>
 		</dict>
@@ -250,7 +250,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(def)\s+([a-zA-Z]*(_\S+)?)</string>
+			<string>\b(def)\s+([a-zA-Z0-9]*(_\S+)?)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
