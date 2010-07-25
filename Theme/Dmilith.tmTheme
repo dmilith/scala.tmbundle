@@ -36,6 +36,41 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comment JavaDoc</string>
+			<key>scope</key>
+			<string>comment.block.documentation.scala</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#448AC3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Scala Comment Annotation</string>
+			<key>scope</key>
+			<string>comment.block.documentation.scala</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#28948F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Scala JavaDoc Level 2</string>
+			<key>scope</key>
+			<string>keyword.other.documentation.scaladoc.scala</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C39F76</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
 			<string>string</string>
@@ -73,7 +108,7 @@
 			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>constant.numeric, constant.numeric.scala</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
