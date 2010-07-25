@@ -24,6 +24,14 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>(\w*)\.</string>
+			<key>end</key>
+			<string>\.?(\W?)?</string>
+			<key>name</key>
+			<string>meta.code.function_caller</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>\W*\.</string>
 			<key>end</key>
 			<string>(\w+)|\n</string>
