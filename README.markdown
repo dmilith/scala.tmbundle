@@ -3,10 +3,12 @@
 # © VerKnowSys.com
 
 
-25 July, 2010
+13 december 2011
+	Added a bit better support for Scala 2.9 language. 
+	Bundle now supports TextMate 2
 
-Added a bit better support for Scala 2.8 language. 
+25 July 2010
+	Added a bit better support for Scala 2.8 language. 
 
-October 17, 2009
-
-I pushed my hacked version so other people could use it as they see fit. However, other Scala devs are trying to merge different bundles into a canonical Scala bundle to rule them all!
+17 October 2009
+	I pushed my hacked version so other people could use it as they see fit. However, other Scala devs are trying to merge different bundles into a canonical Scala bundle to rule them all!
