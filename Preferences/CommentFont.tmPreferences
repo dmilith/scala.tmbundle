@@ -1,0 +1,8 @@
+{	name = "comment";
+	scope = "comment";
+	settings = {
+		fontName = "Monaco";
+		fontSize = "0.8em";
+	};
+	uuid = "871BD5CF-C391-48FA-B4B8-DE47B9F5CF98";
+}
