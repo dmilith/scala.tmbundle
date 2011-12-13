@@ -7,24 +7,20 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby -wKU
 
-cline = ENV['TM_CURRENT_LINE']
-space = cline.scan(/^\s*/).to_s
-
-print cline
-print "\n" + space + "*\t$0"</string>
+print '"""${0}"""'</string>
 	<key>fallbackInput</key>
-	<string>line</string>
+	<string>scope</string>
 	<key>input</key>
 	<string>selection</string>
-	<key>keyEquivalent</key>
-	<string></string>
 	<key>name</key>
-	<string>new javadoc line</string>
+	<string>Double quoute to triple quote</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
-	<string>comment.block.documentation.scala</string>
+	<string>string.quoted.double.scala</string>
+	<key>tabTrigger</key>
+	<string>"</string>
 	<key>uuid</key>
-	<string>701CC71E-0CB8-4C5C-922B-F363193B4AAF</string>
+	<string>8DD4BB8E-C09D-4BC2-90F6-B4248892F325</string>
 </dict>
 </plist>

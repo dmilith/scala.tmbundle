@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if($1){
-$2
-}
+	<string>
+	$0
 </string>
+	<key>keyEquivalent</key>
+	<string></string>
 	<key>name</key>
-	<string>if</string>
+	<string>Special: Return Inside parentheses</string>
 	<key>scope</key>
-	<string>source.scala</string>
-	<key>tabTrigger</key>
-	<string>if</string>
+	<string>meta.parentheses.scala</string>
 	<key>uuid</key>
-	<string>9D749173-9874-4BEC-80A1-BAE8AF266AD9</string>
+	<string>E364F26E-C766-4068-BAAF-C010FA1F5F92</string>
 </dict>
 </plist>

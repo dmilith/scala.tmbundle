@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if($1){
-$2
-}
-</string>
+	<string>for( $1 &lt;- ${2:${3:0} to ${4:10}}) yield $0</string>
 	<key>name</key>
-	<string>if</string>
+	<string>for - Yield</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>if</string>
+	<string>for</string>
 	<key>uuid</key>
-	<string>9D749173-9874-4BEC-80A1-BAE8AF266AD9</string>
+	<string>E0E52BED-94DD-4D9F-8ED5-BEE344AB3FDC</string>
 </dict>
 </plist>

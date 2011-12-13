@@ -6,7 +6,7 @@
 	<string>override def toString(): String =  $0 
 </string>
 	<key>name</key>
-	<string>ToString</string>
+	<string>toString</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>

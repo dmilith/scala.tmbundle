@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if($1){
-$2
-}
-</string>
+	<string>class</string>
 	<key>name</key>
-	<string>if</string>
+	<string>shortcut - class</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>if</string>
+	<string>c</string>
 	<key>uuid</key>
-	<string>9D749173-9874-4BEC-80A1-BAE8AF266AD9</string>
+	<string>EEB7E161-EF45-410A-91CD-7C74F94449A4</string>
 </dict>
 </plist>

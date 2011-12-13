@@ -4,15 +4,16 @@
 <dict>
 	<key>content</key>
 	<string>match {
-	$0
-}</string>
+	case ${1:_} =&gt; $0
+}
+</string>
 	<key>name</key>
 	<string>match</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>ma</string>
+	<string>match</string>
 	<key>uuid</key>
-	<string>B56635D9-D360-4348-A8DF-AA30114C5912</string>
+	<string>6851152B-CD07-4E27-9932-631A86102B5C</string>
 </dict>
 </plist>

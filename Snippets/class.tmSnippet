@@ -3,21 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * $1
- */
-class ${1:ClassName} 
-{
+	<string>class ${1:${TM_FILENAME/(.*)\.scala/$1/}}${2:($3)} ${4:extends ${5:Any} }{
 	$0
-}
-</string>
+}</string>
 	<key>name</key>
-	<string>Class</string>
+	<string>class</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
 	<string>class</string>
 	<key>uuid</key>
-	<string>3C59822F-760D-42BC-8473-C9A3F7AAA0BB</string>
+	<string>E79DCC79-E834-4B6C-8280-EBE0B9A0A41F</string>
 </dict>
 </plist>
